@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Course Schedule</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="CS.css">
+  <style>
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+
+      button{
+        background-color: red;
+        color: white;
+      }
+      </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">ABC Learning Center</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="ABC Home Page.html">Home</a></li>
+          <li class="Course">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses Available <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown">
+              
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="CSS.html">Programming in CSS</a></li>
+                <li><a href="Java.html">Programming in Java</a></li>
+                <li><a href="MYSQL.html">MYSQL</a></li>
+                <li><a href="Java Script.html">Java Script</a></li>
+                <li><a href="Python.html">Python</a></li>
+              </span></a>
+              
+              </li>
+             
+              
+
+             
+            </ul>
+          </li>
+          <li><a href="Course Schedule.html">Course Schedule</a></li>
+          <li><a href="SiteMap.html">SiteMap</a></li>
+          <li><a href="ABC About us.html">About Us</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <div class="Heading">
+    <h1 style="text-align: center; color: white;">Welcome to ABC Learning Center!</h1>
+    <h1 style="text-align: center; color: white;">Join our Free live Seccions!</h1>
+
+  </div>
+  
+
+
+<table id="customers">
+    <tr>
+      <th>Course</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Conferencing Platform</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>5th March 2022</td>
+      <td>9:00am to 10:30am</td>
+      <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>5th March 2022</td>
+        <td>10:30am to 11:30am</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+    <tr>
+      <td>Break/Interval</td>
+      <td>5th March 2022</td>
+      <td>11:30pm to 12:30pm</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>5th March 2022</td>
+      <td>12:30pm to 2:00pm</td>
+      <td>Zoom  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+      <td>Programming in css</td>
+      <td>6th March 2022</td>
+      <td>9:00am to 10:30am</td>
+      <td>Zoom  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+      <td>Programming in css</td>
+      <td>6th March 2022</td>
+      <td>10:30am to 11:30pm</td>
+      <td>Zoom  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+        <td>Break/Interval</td>
+        <td>6th March 2022</td>
+        <td>11:30pm to 12:30pm</td>
+        <td style="text-align: center;">-</td>
+      </tr>
+    <tr>
+      <td>Programming in css</td>
+      <td>6th March 2022 </td>
+      <td>12:30pm to 2:00pm</td>
+      <td>Zoom  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+      <td>Programming in Java</td>
+      <td>7th March 2022</td>
+      <td>9:00am to 10:30am</td>
+      <td>Google Meet  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+      <td>Programming in Java</td>
+      <td>7th March 2022</td>
+      <td>10:30am to 11:30pm</td>
+      <td>Google Meet  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+      <td>Break</td>
+      <td>7th March 2022</td>
+      <td>11:30pm to 12:30pm</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td>Programming in Java</td>
+      <td>7th March 2022</td>
+      <td>12:30pm to 2:00pm</td>
+      <td>Google Meet  <button style="float:right;" onclick="myFunction()">Join</button></td>
+    </tr>
+    <tr>
+        <td>Java Script</td>
+        <td>8th March 2022</td>
+        <td>9:00pm to 10:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>Java Script</td>
+        <td>8th March 2022</td>
+        <td>10:30am to 11:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>Break</td>
+        <td>8th March 2022</td>
+        <td>11:30pm to 12:30pm</td>
+        <td style="text-align: center;">-</td>
+      </tr>
+      <tr>
+        <td>Java Script</td>
+        <td>8th March 2022</td>
+        <td>12:30pm to 2:00pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+        </tr>
+      <tr>
+        <td>Python</td>
+        <td>9th March 2022</td>
+        <td>9:00pm to 10:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>9th March 2022</td>
+        <td>10:30pm to 11:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>Break</td>
+        <td>9th March 2022</td>
+        <td>11:30pm to 12:30pm</td>
+        <td style="text-align: center;">-</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>9th March 2022</td>
+        <td>12:30pm to 2:00pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+        </tr>
+      <tr>
+        <td>SQL</td>
+        <td>10th March 2022</td>
+        <td>9:00pm to 10:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>10th March 2022</td>
+        <td>10:30pm to 11:30pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      <tr>
+        <td>Break</td>
+        <td>10th March 2022</td>
+        <td>11:30pm to 12:30pm</td>
+        <td style="text-align: center;">-</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>10th March 2022</td>
+        <td>12:30pm to 2:00pm</td>
+        <td>Microsoft Teams  <button style="float:right;" onclick="myFunction()">Join</button></td>
+      </tr>
+      
+  </table>
+</body>
+</html>
